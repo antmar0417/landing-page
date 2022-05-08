@@ -1,0 +1,102 @@
+.section-review {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-review .review-container {
+  width: 70%;
+  max-width: 25rem;
+}
+
+.section-review .review-container h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-review .review-container .number-container {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-review .review-container .number-container .page-number {
+  width: 2rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background: #c4c4c4;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.section-review .review-container .number-container .page-number:first-child {
+  width: 2rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: bolder;
+  background: none;
+  border: none;
+}
+
+.section-review .review-container .number-container .page-number:last-child {
+  width: 2rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: bolder;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .section-review .review-container h2 {
+    font-size: 1.7rem;
+  }
+
+  .section-review .review-container .number-container .page-number {
+    width: 2rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background: #c4c4c4;
+    border: 2px solid black;
+    border-radius: 8px;
+  }
+
+  .section-review .review-container .number-container .page-number:first-child {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    background: none;
+    border: none;
+  }
+
+  .section-review .review-container .number-container .page-number:last-child {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    background: none;
+    border: none;
+  }
+}

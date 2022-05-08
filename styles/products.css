@@ -1,0 +1,32 @@
+.section-products {
+  margin-top: 80px;
+}
+.section-products h2 {
+  margin: 1rem;
+}
+
+.section-products .scroll-menu {
+  margin: 1rem;
+  margin-bottom: 5rem;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.section-products .scroll-menu div {
+  width: 50%;
+  max-width: 30rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.section-products .scroll-menu img {
+  width: 100%;
+}
+
+.section-products .scroll-menu div p {
+  text-align: center;
+  margin-top: 1rem;
+}

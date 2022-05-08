@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap");
+
+:root {
+  /* Font sizes */
+  --h1-large: 3.5em;
+  --h1-middle: 2.8em;
+  --nav-link-size: 1.5em;
+  --email-size: 1rem;
+
+  /* Colors */
+  --color-background: #f5f5f5;
+  --color-navlink: rgb(183, 255, 67);
+  --color-white: #fff;
+  --color-footer: rgb(102, 102, 102);
+  --color-header: #262626;
+
+  /* Font family */
+  --font-title: "Cormorant SC", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-title);
+}
+
+body {
+  background: var(--color-background);
+}

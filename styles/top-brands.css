@@ -1,0 +1,26 @@
+.section-top-brands {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section-top-brands img {
+  margin-top: 4rem;
+  width: 800px;
+}
+
+@media (max-width: 869px) {
+  .section-top-brands img {
+    margin-top: 3rem;
+    /* width: 80%; */
+    width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-top-brands img {
+    margin-top: 20rem;
+    /* width: 80%; */
+    width: 400px;
+  }
+}
